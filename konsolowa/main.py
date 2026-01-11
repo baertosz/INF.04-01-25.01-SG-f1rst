@@ -24,7 +24,13 @@ class OperacjeNaTablicach:
                 ilosc += 1
 
         return ilosc
-    
+# **********************************************
+# nazwa metody: srednia
+# opis metody: liczy srednia arytmetyczna tablicy __liczby i ja zwraca
+# parametry: brak
+# zwracany typ i opis: float, zwraca srednia arytmetyczna
+# autor: æ
+# ***********************************************
     def srednia(self):
         suma = 0
         for liczba in self.__liczby:
